@@ -10,7 +10,18 @@ Bu proje, çiçek görsellerini beş farklı kategoriye sınıflandırmayı ama�
 
 Bu proje, **veri yükleme ve önişlemeden** başlayıp, **modellerin eğitilmesi**, **performansının değerlendirilmesi** ve **yeni görüntülerde tahmin yapmaya** kadar tüm aşamaları kapsar.
 
+( This project aims to classify flower images into five different categories using two different deep learning approaches:
+
+1.  **A custom Convolutional Neural Network (CNN)**.
+    
+2.  **Transfer Learning using ResNet-18** pretrained on ImageNet.
+    
+
+The project demonstrates the entire pipeline from **data loading and preprocessing** to **training models**, **evaluating their performance**, and **making predictions on new images**. )
+
 ## 🌼 **Veri Seti**
+
+link ==> https://www.kaggle.com/datasets/alxmamaev/flowers-recognition
 
 Veri seti, çiçek görsellerinden oluşur ve beş sınıfa ayrılmıştır:
 
@@ -116,6 +127,6 @@ Bu kod, tahmin edilen sınıfı yazdırır ve görseli Matplotlib ile görüntü
 ----------
 
 
--   [Mahmut Kerem Erden]
+-   Mahmut Kerem Erden
 
 Projeyi fork edebilir, pull request oluşturabilir veya öneriler için issue açabilirsiniz!
